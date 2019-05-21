@@ -1,0 +1,38 @@
+{
+  "name": "graphiql-ga",
+  "homepage": ".",
+  "main": "dist/index.html",
+  "version": "0.1.0",
+  "private": false,
+  "neo4jDesktop": {
+    "apiVersion": "^1.2.0"
+  },
+  "dependencies": {
+    "@neo4j/relate-api": "^0.4.4",
+    "graphiql": "^0.13.0",
+    "graphql-tag": "^2.10.1",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && mv build dist",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
