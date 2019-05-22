@@ -1,10 +1,12 @@
 #!/bin/bash
-ENDPOINT=http://halin.s3-website-us-east-1.amazonaws.com
-BUCKET=halin.graphapp.io
+ENDPOINT=http://graphiql.s3-website-us-east-1.amazonaws.com
+BUCKET=graphiql.graphapp.io
 
-# Publish to the jfrog.io repo where Neo4j Desktop finds it.
-#npm publish
-
-# Publish to the static Amazon S3 site.
+# 1. Build it
 npm run build
+
+# 2. Publish to public npm repo where Neo4j Desktop can find it.
+npm publish
+
+# 3. Host on a static Amazon S3 site.
 s3cmd put --recursive -P dist/* s3://$BUCKET

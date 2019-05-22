@@ -4,6 +4,13 @@
   "main": "dist/index.html",
   "version": "0.1.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neo4j/neo4j-browser.git"
+  },
+  "keywords": [],
+  "author": "Neo4j Inc.",
+  "license": "Apache-2.0",
   "neo4jDesktop": {
     "apiVersion": "^1.2.0"
   },
