@@ -2,7 +2,7 @@
   "name": "@akollegger/graphiql-ga",
   "homepage": ".",
   "main": "dist/index.html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "repository": {
     "type": "git",
@@ -16,12 +16,12 @@
   },
   "dependencies": {
     "@neo4j/relate-api": "^0.4.4",
-    "graphiql": "^0.13.0",
+    "graphiql": "^0.14.2",
     "graphql-tag": "^2.10.1",
     "isomorphic-fetch": "^2.2.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "3.1.2",
     "subscriptions-transport-ws": "^0.9.16"
   },
   "scripts": {
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }
