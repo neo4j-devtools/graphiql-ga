@@ -1,5 +1,5 @@
 {
-  "name": "@akollegger/graphiql-ga",
+  "name": "@neo4j-apps/graphiql-ga",
   "homepage": ".",
   "main": "dist/index.html",
   "version": "0.1.1",
