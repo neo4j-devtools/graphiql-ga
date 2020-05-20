@@ -9,7 +9,7 @@ const App = () => (
   <GraphiQL
     fetcher={async (graphQLParams:any) => {
       const data = await fetch(
-        apiEndpoint || 'https://countries.trevorblades.com/',
+        apiEndpoint || 'https://movies.grandstack.io/',
         {
           method: 'POST',
           headers: {
