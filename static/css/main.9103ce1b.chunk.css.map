@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACA,SAAU,CACV,QAAS,CACT,gBACA,CACA,MACA,YACA","file":"main.9103ce1b.chunk.css","sourcesContent":["body {\npadding: 0;\nmargin: 0;\nmin-height: 100vh;\n}\n#root {\nheight: 100vh;\n}"]}
