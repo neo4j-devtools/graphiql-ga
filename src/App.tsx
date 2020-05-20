@@ -9,7 +9,7 @@ const App = () => (
   <GraphiQL
     fetcher={async (graphQLParams:any) => {
       const data = await fetch(
-        apiEndpoint || `${window.location.origin}/graphql`,
+        apiEndpoint || 'https://countries.trevorblades.com/',
         {
           method: 'POST',
           headers: {

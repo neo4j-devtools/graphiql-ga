@@ -2,6 +2,17 @@
 
 A convenient wrapper of GraphiQL to use within Neo4j Desktop.
 
+## Install
+
+Install for offline use:
+
+-- `https://registry.npmjs.org/@neo4j-apps/graphiql-ga`
+
+Use hosted application:
+
+-- `https://neo4j-apps.github.io/graphiql-ga/`
+
+
 ## Development
 
 Run application in development mode: `npm run start`
